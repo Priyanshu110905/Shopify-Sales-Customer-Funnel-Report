@@ -61,7 +61,7 @@ During the Exploratory Data Analysis (EDA) phase within Power BI, several profit
 ### Insight 1: Gateway Dependency and Processing Volume
 A breakdown of payment methods reveals a heavy reliance on native systems. `shopify_payments` captured **58.45%** of the total net sales volume (**$2.44M**), followed by `amazon_payments` (**17.62%**) and `paypal` (**16.29%**). 
 
-![image alt]((https://github.com/Priyanshu110905/Shopify-Sales-Customer-Funnel-Report/blob/2e7e619ef1fdb498df93c64c77eb2e5382793bc2/Payment.png))
+![image alt](https://github.com/Priyanshu110905/Shopify-Sales-Customer-Funnel-Report/blob/2e7e619ef1fdb498df93c64c77eb2e5382793bc2/Payment.png)
 
 ### Insight 2: Regional Revenue Concentrations
 Geospatial EDA highlights that the United States market is heavily skewed toward specific urban centers. **Washington** is the undisputed leader in net sales, followed by Houston, New York City, and El Paso. 
