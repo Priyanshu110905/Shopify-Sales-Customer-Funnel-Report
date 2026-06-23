@@ -88,3 +88,20 @@ RETURN
     )
 
 // Note: This measure dynamically responds to the Gateway and Province slicers on the dashboard.
+```
+
+### 5. Recommendations
+
+Based strictly on the insights surfaced in the Power BI report, I recommend the following actionable business strategies:
+
+* **1.Leverage Volume for Lower Payment Processing Fees:**
+-Action: With $2.44M (58.45%) processed strictly through shopify_payments, the business has immense negotiating leverage. Approach Shopify Plus representatives to negotiate lower tiered processing rates based on this high transaction volume.
+-Business Value: A fractional reduction in gateway fees (e.g., saving 0.2% per transaction) will drop directly to the bottom line, significantly improving gross margins on $4.18M in sales.
+
+* **2.Geo-Targeted Ad Spend Reallocation:**
+-Action: Shift top-of-funnel (ToFu) marketing budget away from underperforming lower-tier cities and concentrate ad spend aggressively on the top 4 markets: Washington, Houston, New York City, and El Paso.
+-Business Value: By doubling down on regions with proven high Net Sales and Customer Purchase Behavior, the business will decrease Customer Acquisition Cost (CAC) and improve overall Return on Ad Spend (ROAS).
+
+* **3.Capitalize on the "Running Shoes" Halo Effect:**
+-Action: Since Running Shoes generate the highest revenue ($1.5M), create a post-purchase automated email sequence targeting these specific buyers to cross-sell lower-tier accessories or apparel.
+-Business Value: Currently, the Purchase Frequency is 1.68. Incentivizing the massive Running Shoe customer base to make a second, smaller purchase will push the Repeat Customer Rate past the 50% mark and directly elevate the overall $943.60 LTV.
