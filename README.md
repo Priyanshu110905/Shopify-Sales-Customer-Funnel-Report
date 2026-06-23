@@ -1,5 +1,4 @@
-<h1 align="center">📈 Shopify Sales & Customer Funnel Report</h1>
-<p align="center"><i>Data Analytics Portfolio Project by Priyanshu Raj</i></p>
+#📈 Shopify Sales & Customer Funnel Report
 
 ## 1. Background and Overview
 
@@ -7,7 +6,7 @@
 
 **Objective:** To analyze Shopify sales data natively within a Business Intelligence environment to uncover hidden purchasing behaviors, map the customer retention funnel, and evaluate product-level profitability. The ultimate goal is to translate raw transactional data into actionable strategies that optimize payment gateway costs, improve the **Repeat Customer Rate**, and maximize **Customer Lifetime Value (LTV)**.
 
-**Data Source:** `Shopify Sales.xlsx` (Uploaded raw transaction dataset)
+**Data Source:** [Data](https://docs.google.com/spreadsheets/d/1a6SfTlwWKhy1lKCKP85_DarD1KYzUeMe/edit?usp=drive_link&ouid=103120213960573396884&rtpof=true&sd=true)
 
 **Tech Stack Used:** * **Power BI Desktop:** End-to-end solution environment.
 * **Power Query (M):** Automated ETL (Extract, Transform, Load) pipelines, data cleaning, and anomaly handling.
@@ -30,10 +29,6 @@ Below are the core attributes driving the analysis. Extraneous identifiers were 
 | `Total Price USD` | Float | Standardized financial metric for cross-border revenue reporting. |
 | `Customer Id` | String | Unique buyer identifier, critical for calculating retention and LTV. |
 | `Gateway` | String | Payment processor (e.g., `shopify_payments`, `paypal`). |
-
-### Data Flow & Architecture
-`![alt text](ERD_Placeholder.png)`
-*(Placeholder: The Power BI data model features a Star Schema with a central `Fct_Sales` table joined to `Dim_Customers`, `Dim_Products`, `Dim_Geography`, and a `Dim_Date` table for time-intelligence reporting.)*
 
 ### Visual Data Cleaning (Power Query)
 To ensure high data integrity, the raw dataset underwent rigorous cleaning exclusively using Power Query Editor before being loaded into the data model.
@@ -66,12 +61,12 @@ During the Exploratory Data Analysis (EDA) phase within Power BI, several profit
 ### Insight 1: Gateway Dependency and Processing Volume
 A breakdown of payment methods reveals a heavy reliance on native systems. `shopify_payments` captured **58.45%** of the total net sales volume (**$2.44M**), followed by `amazon_payments` (**17.62%**) and `paypal` (**16.29%**). 
 
-`![alt text](Gateway_Donut_Chart_Placeholder.png)`
+![alt text](Gateway_Donut_Chart_Placeholder.png)
 
 ### Insight 2: Regional Revenue Concentrations
 Geospatial EDA highlights that the United States market is heavily skewed toward specific urban centers. **Washington** is the undisputed leader in net sales, followed by Houston, New York City, and El Paso. 
 
-`![alt text](Regional_Map_Bar_Chart_Placeholder.png)`
+![alt text](Regional_Map_Bar_Chart_Placeholder.png)
 
 ### Insight 3: Uncovering the Retention Funnel (DAX Logic)
 To understand long-term value, it was critical to dynamically separate single-order customers from repeat buyers. By creating custom DAX measures, we isolated the **46% repeat rate**, allowing leadership to filter this retention metric dynamically by province or product type.
