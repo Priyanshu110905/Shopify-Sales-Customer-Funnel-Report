@@ -61,12 +61,12 @@ During the Exploratory Data Analysis (EDA) phase within Power BI, several profit
 ### Insight 1: Gateway Dependency and Processing Volume
 A breakdown of payment methods reveals a heavy reliance on native systems. `shopify_payments` captured **58.45%** of the total net sales volume (**$2.44M**), followed by `amazon_payments` (**17.62%**) and `paypal` (**16.29%**). 
 
-![alt text](Gateway_Donut_Chart_Placeholder.png)
+![alt text]((https://github.com/Priyanshu110905/Shopify-Sales-Customer-Funnel-Report/blob/2e7e619ef1fdb498df93c64c77eb2e5382793bc2/Payment.png))
 
 ### Insight 2: Regional Revenue Concentrations
 Geospatial EDA highlights that the United States market is heavily skewed toward specific urban centers. **Washington** is the undisputed leader in net sales, followed by Houston, New York City, and El Paso. 
 
-![alt text](Regional_Map_Bar_Chart_Placeholder.png)
+![alt text](https://github.com/Priyanshu110905/Shopify-Sales-Customer-Funnel-Report/blob/2e7e619ef1fdb498df93c64c77eb2e5382793bc2/Region.png)
 
 ### Insight 3: Uncovering the Retention Funnel (DAX Logic)
 To understand long-term value, it was critical to dynamically separate single-order customers from repeat buyers. By creating custom DAX measures, we isolated the **46% repeat rate**, allowing leadership to filter this retention metric dynamically by province or product type.
