@@ -11,6 +11,7 @@
 **Tech Stack Used:** * **Power BI Desktop:** End-to-end solution environment.
 * **Power Query (M):** Automated ETL (Extract, Transform, Load) pipelines, data cleaning, and anomaly handling.
 * **DAX (Data Analysis Expressions):** Complex metric aggregations, time-intelligence calculations, and funnel modeling.
+![image alt](https://github.com/Priyanshu110905/Shopify-Sales-Customer-Funnel-Report/blob/30e7acfce1294299181021f48934c347931bc258/Screenshot%202026-06-20%20133600.png)
 
 ---
 
