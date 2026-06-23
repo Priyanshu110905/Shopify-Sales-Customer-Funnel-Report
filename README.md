@@ -1,4 +1,4 @@
-#📈 Shopify Sales & Customer Funnel Report
+# 📈 Shopify Sales & Customer Funnel Report
 
 ## 1. Background and Overview
 
